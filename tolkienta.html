@@ -140,7 +140,7 @@
       const shadowGenerator = new BABYLON.ShadowGenerator(1024, light);
 
       // Load the GLB Model (path is relative to the HTML file)
-      BABYLON.SceneLoader.Append("", "https://raw.githubusercontent.com/thejavamonster/HSC/main/TolkienTA5.glb", scene, function (scene) { //A45 //T43 //P8 //PH13 //FA3 //SA15 //TA5
+      BABYLON.SceneLoader.Append("", "TolkienTA5_optimized.glb", scene, function (scene) { //A45 //T43 //P8 //PH13 //FA3 //SA15 //TA5
         // Enable animations (if any)
         scene.animationGroups?.forEach(group => group.start(true));
 
